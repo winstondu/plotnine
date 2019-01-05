@@ -68,6 +68,9 @@ Enhancements
   scale is altered, the user is warned about a possible error in what they expect.
   (:issue:`254`, :issue:`255`)
 
+- The way in which layers are created has been refactored to give packages that
+  that extend plotnine more flexibility in manipulating the layers.
+
 v0.5.1
 ------
 (2018-10-17)
