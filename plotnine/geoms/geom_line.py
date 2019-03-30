@@ -12,7 +12,10 @@ class geom_line(geom_path):
     Parameters
     ----------
     {common_parameters}
-
+    fun_y : function, optional (default: None)
+        Any function that takes a array-like and returns a value.
+        (Generally used in coordination with stat = 'summary')
+    
     See Also
     --------
     plotnine.geoms.geom_path - For documentation of
